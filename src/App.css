@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+}
+
+body{
+  padding: 2.75em 0;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+  background-color: #23252C;
+  color: #FFFFFF;
+}
+
+.card {
+  width: 30%;
+  margin: auto;
+  background-color: #1A1B21;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 0.5em;
+}
+
+.avatar{
+  width: 100%;
+  margin: auto;
+
+}
+
+.info{
+  padding: 0 2.5em;
+}
+
+h1{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 1em auto 0;
+}
+
+.profession{
+  font-size: 0.8rem;
+  color: #F3BF99;
+}
+
+.website{
+  display: block;
+  font-size: 0.64rem;
+  margin-top: 1em;
+  color: #F5F5F5;
+  text-decoration: none;
+}
+
+.website:hover{
+  opacity: 0.5;
+}
+
+.email-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  gap: 8px;
+  margin: 1.3em auto 2.5em;
+  padding: 0.64em 0;
+  background-color: white;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #1E1F26;
+  border-radius: 0.38em;
+}
+
+.email-btn:hover{
+  background-color: #F3BF99;
+}
+
+.about-section, .interests-section{
+  text-align: left;
+  margin: 0 2.5em 1.69em;
+}
+
+h2{
+  font-weight: 700;
+  font-size: 1rem;
+  color: #F5F5F5;
+  margin-bottom: 0.3em;
+}
+
+.about-section p, .interests-section p{
+  font-size: 0.7rem;
+  color: #DCDCDC;
+  line-height: 1.5;
+}
+
+.footer{
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6em;
+  background-color: #161619;
+  gap: 0.75em;
+  margin-top: 1.5em;
+}
+
+.footer a{
+  color: #918E9B;
+}
+
+.footer a:hover{
+  color: #F3BF99;
+}
